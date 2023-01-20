@@ -1,0 +1,7 @@
+##Get List of All Users
+curl -H "X-Auth-Token: FkvNyE9dPUaPbeqLe8GvhmMx7ADtmM2V51Y54LHCOJe" \
+     -H "X-User-Id: 6MS3yk49ZKEDYvAcW" \
+     http://localhost:3000/api/v1/users.list
+     
+##Results
+{"users":[{"_id":"6MS3yk49ZKEDYvAcW","emails":[{"address":"ben.torrales@gmail.com","verified":false}],"type":"user","status":"online","active":true,"roles":["user","admin"],"name":"Ben Torrales","lastLogin":"2023-01-20T07:19:12.510Z","username":"alione","nameInsensitive":"ben torrales"},{"_id":"rocket.cat","name":"Rocket.Cat","username":"rocket.cat","status":"online","active":true,"type":"bot","roles":["bot"],"avatarETag":null,"nameInsensitive":"rocket.cat"},{"_id":"owXERa7rjcmwGLkkD","username":"testapi","emails":[{"address":"testapi@gmail.com","verified":false}],"type":"user","status":"offline","active":true,"roles":["user"],"name":"Test Api","nameInsensitive":"test api"},{"_id":"68kqqFkjW3Woc5w2t","username":"tester1","emails":[{"address":"chulin3@gmail.com","verified":false}],"type":"user","status":"offline","active":true,"roles":[],"name":"Test One","nameInsensitive":"test one"},{"_id":"5EqStsMNGQCBAaN4Y","username":"tester2","emails":[{"address":"benjamin.torrales@gmail.com","verified":false}],"type":"user","status":"o

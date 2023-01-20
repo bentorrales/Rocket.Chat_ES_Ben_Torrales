@@ -1,0 +1,9 @@
+###Create New User via API
+curl -H "X-Auth-Token: FkvNyE9dPUaPbeqLe8GvhmMx7ADtmM2V51Y54LHCOJe"      -H "X-User-Id: 6MS3yk49ZKEDYvAcW"      -H "Content-type:application/json"      http://localhost:3000/api/v1/users.create      -d '{"name": "Test Api", "email": "testapi@gmail.com", "password": "password@1", "username": "testapi"}'
+
+###Executed
+root@rocketchat:/home/alione# curl -H "X-Auth-Token: FkvNyE9dPUaPbeqLe8GvhmMx7ADtmM2V51Y54LHCOJe"      -H "X-User-Id: 6MS3yk49ZKEDYvAcW"      -H "Content-type:application/json"      http://localhost:3000/api/v1/users.create      -d '{"name": "Test Api", "email": "testapi@gmail.com", "password": "password@1", "username": "testapi"}'
+{"user":{"_id":"owXERa7rjcmwGLkkD","createdAt":"2023-01-20T07:06:56.522Z","username":"testapi","emails":[{"address":"testapi@gmail.com","verified":false}],"type":"user","status":"offline","active":true,"_updatedAt":"2023-01-20T07:06:56.731Z","__rooms":["GENERAL"],"roles":["user"],"name":"Test Api","settings":{}},"success":true}root@rocketchat:/home/alione# 
+
+
+
