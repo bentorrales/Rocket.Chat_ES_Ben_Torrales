@@ -1,4 +1,4 @@
-###Create New User via API
+###Create New User via API | Command Used
 curl -H "X-Auth-Token: FkvNyE9dPUaPbeqLe8GvhmMx7ADtmM2V51Y54LHCOJe"      -H "X-User-Id: 6MS3yk49ZKEDYvAcW"      -H "Content-type:application/json"      http://localhost:3000/api/v1/users.create      -d '{"name": "Test Api", "email": "testapi@gmail.com", "password": "password@1", "username": "testapi"}'
 
 ###Executed
